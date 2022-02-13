@@ -16,6 +16,9 @@
 		0C9971C927B864E0007D7764 /* WhiteHousePetitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971C827B864E0007D7764 /* WhiteHousePetitionsTests.swift */; };
 		0C9971D327B864E0007D7764 /* WhiteHousePetitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971D227B864E0007D7764 /* WhiteHousePetitionsUITests.swift */; };
 		0C9971D527B864E1007D7764 /* WhiteHousePetitionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971D427B864E1007D7764 /* WhiteHousePetitionsUITestsLaunchTests.swift */; };
+		0C9971E227B86F55007D7764 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971E127B86F55007D7764 /* Petition.swift */; };
+		0C9971E427B86FBF007D7764 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971E327B86FBF007D7764 /* Petitions.swift */; };
+		0C9971E627B87653007D7764 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9971E527B87653007D7764 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0C9971CE27B864E0007D7764 /* WhiteHousePetitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHousePetitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9971D227B864E0007D7764 /* WhiteHousePetitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHousePetitionsUITests.swift; sourceTree = "<group>"; };
 		0C9971D427B864E1007D7764 /* WhiteHousePetitionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHousePetitionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C9971E127B86F55007D7764 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		0C9971E327B86FBF007D7764 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		0C9971E527B87653007D7764 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				0C9971B127B864DF007D7764 /* AppDelegate.swift */,
 				0C9971B327B864DF007D7764 /* SceneDelegate.swift */,
 				0C9971B527B864DF007D7764 /* ViewController.swift */,
+				0C9971E127B86F55007D7764 /* Petition.swift */,
+				0C9971E327B86FBF007D7764 /* Petitions.swift */,
 				0C9971B727B864DF007D7764 /* Main.storyboard */,
+				0C9971E527B87653007D7764 /* DetailViewController.swift */,
 				0C9971BA27B864E0007D7764 /* Assets.xcassets */,
 				0C9971BC27B864E0007D7764 /* LaunchScreen.storyboard */,
 				0C9971BF27B864E0007D7764 /* Info.plist */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C9971B627B864DF007D7764 /* ViewController.swift in Sources */,
+				0C9971E227B86F55007D7764 /* Petition.swift in Sources */,
 				0C9971B227B864DF007D7764 /* AppDelegate.swift in Sources */,
+				0C9971E627B87653007D7764 /* DetailViewController.swift in Sources */,
 				0C9971B427B864DF007D7764 /* SceneDelegate.swift in Sources */,
+				0C9971E427B86FBF007D7764 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
